@@ -12,8 +12,9 @@
 * unite generate --type=module --name=MyModule --outputDirectory=./app
 * unite generate --type=pipe --name=MyPipe --outputDirectory=./app
 * unite generate --type=service --name=MyService --outputDirectory=./app
-* unite platform --operation=add --platformName=Electron --outputDirectory=./app
+* unite platform --operation=add --platformName=Cordova --outputDirectory=./app
 * unite platform --operation=add --platformName=Docker --outputDirectory=./app
+* unite platform --operation=add --platformName=Electron --outputDirectory=./app
 
 ## Build Operations
 
@@ -22,10 +23,11 @@
 * gulp unit
 * gulp e2e-install
 * gulp e2e
-* gulp platform-electron-dev
 * gulp build --buildConfiguration=prod
 * gulp e2e
+* gulp doc-build
 * gulp platform-web-package --buildConfiguration=prod
+* gulp platform-electron-dev
 * gulp platform-electron-package --buildConfiguration=prod
 * gulp platform-docker-package --buildConfiguration=prod
 * gulp platform-cordova-dev --buildConfiguration=prod
